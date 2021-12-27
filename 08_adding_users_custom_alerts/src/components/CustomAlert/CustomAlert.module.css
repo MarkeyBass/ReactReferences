@@ -1,0 +1,20 @@
+.alert .msg_1{
+  background-color: purple;
+  color: aliceblue;
+  padding: 1rem;
+  border: purple solid 1px;
+  border-radius: 10px;
+}
+
+.alert .msg_2{
+  background-color: inherit;
+  color: black;
+  padding: 1rem;
+
+}
+
+.alert .msg_2 .btnAlert{
+  background-color: purple;
+  color: aliceblue;
+  padding: 1rem;
+}

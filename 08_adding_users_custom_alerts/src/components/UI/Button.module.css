@@ -1,0 +1,38 @@
+.button {
+  /* Width on small devices */
+  width: 101%;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 3px solid #3a3cc4;
+  border-radius: 5px;
+  color: white;
+  background: #3a3cc4;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background: #3006ee;
+  border-color: #3006ee;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+.button:active {
+  background: #3006ee;
+  border-color: #3006ee;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+  border: 2.5px solid #3a3cc4;
+}
+
+/* Case of big screen */
+  @media (min-width: 768px) {
+    .button {
+      width: auto;
+
+    }
+  }

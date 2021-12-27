@@ -1,0 +1,57 @@
+/* .user-list {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 1rem;
+}
+.user-list li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+} */
+
+
+.user-item {
+  /* margin: auto; */
+  margin-top: 1.5rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .user-item.a {
+  background: #8b005d;
+  cursor: pointer;
+} */
+
+.user-item .deleteme {
+  background: #f15f77;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid black 1px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.user-item .deleteme:hover {
+  background-color: #f53555;
+}
+
+.user-item .deleteme:active {
+  width: 1.3rem;
+  height: 1.3rem;
+  font-size: 0.7rem;
+}
+
+/* .deleteme {
+  background-color: red;
+} */

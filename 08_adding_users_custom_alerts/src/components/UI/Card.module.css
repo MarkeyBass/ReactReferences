@@ -1,0 +1,10 @@
+.card {
+  
+  border: black solid 1px;
+  background-color: seashell;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgb(6, 189, 202);
+  margin: 60px;
+  padding: 1rem 3rem 1rem 3rem;
+
+}

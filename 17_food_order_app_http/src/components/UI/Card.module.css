@@ -1,0 +1,17 @@
+/* .card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 12px rgb(6, 189, 202);
+  border-radius: 10px;
+  background-color: seashell;
+  border: black solid 1px;
+  margin: 10px;
+}
+ */
+
+.card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: seashell;
+}

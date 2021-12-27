@@ -1,0 +1,26 @@
+.user-list {
+  list-style-type: none ; 
+  /* display: flex;
+  flex-direction: column;
+  justify-content: left; */
+  padding: 0;
+}
+
+
+/* .user-list li {
+  margin-top: 1.5rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: rgb(0, 0, 0);
+  padding: 1rem 2rem;
+} */
+
+/* .user-list.user-item.a {
+  background: #8b005d;
+  cursor: pointer;
+} */
+
+.deleteme {
+  background: #8b005d;
+  cursor: pointer;
+}
