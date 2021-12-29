@@ -13,7 +13,7 @@ import { cartActions } from "./cart-slice";
 // can dispatch other actions that reach the reducers as part of flow of side effects.
 
 export const sendCartData = (cartState) => {
-  //our function will return afunction that receives a dispatch argument.
+  // our function will return a function that receives a dispatch argument.
   // the dispatch argument is preconfigured for us by "@reduxjs/toolkit"
   // so in the inner function we can dispatch again (it is such a common pattern so we have 'dispatch here ready to use).
   // Now we can perform side effects inside the redux-slice. It is a reducer inside a reducer...

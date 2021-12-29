@@ -19,7 +19,6 @@ function App() {
   const cartState = useSelector((state) => state.cart);
   // when cartState changes use effect will change the backend database
   useEffect(() => {
-
     const sendCartData = async () => {
       dispatch(
         uiActions.showNotification({
@@ -51,8 +50,8 @@ function App() {
       );
     };
 
-    // This if check prevents the progran to execute at the first time and sending http PUT request with no data.
-    if(isInitial) {
+    // This if check prevents the program to execute at the first time and sending http PUT request with no data.
+    if (isInitial) {
       isInitial = false;
       return;
     }

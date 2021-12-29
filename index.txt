@@ -1,0 +1,40 @@
+Index
+=================
+
+React 11, 15.1, 15.2.2, 16.1, 16.2, 18.2, 18.3, 19.1,
+
+03_expence_tracker - COMBINED STATE CHANGE APPROACH vs Seperated ( ExpenseForm component )
+		     Card design, select input, Filtering data, movidg data between components
+
+06_styling_react -  filtering, basic input validation
+
+08_adding_users_custom_alerts_max_solution - Input validation with refs and custom alerts (AddUser ErrorModal)
+					     back drop, react portals, filter.
+		    
+10_useEffect_useReducer_contextAPI_loginProject  - Input validation with refs				
+
+11_food_order_app - Modal Component: back drop, react portal, Consext, HeaderCartButton (useEffect with cleanup function for animation)
+
+12_react_Behind_The_Scenes - useCallback() hook
+
+12_use-memo-hook
+
+14_Http - Basic
+
+14_Http_firebase
+
+15.1_custom_hooks (basic counter app)
+
+15.2.2_custom_hooks_http (combining CustomHook with useEffect may lead to infinit loop of component re rendering
+                      check App.js coments on how to avoid infinit loops without too many useCallback and useMemo like in 15.2.1)
+
+16.1_forms Single input validation
+
+16.2_Form_assignment - useInput custom hook
+
+18.2_redux_counter (Good basic example)
+
+18.3_redux_toolkit (Counter and Auth reducers configured by toolkit - Easy to configute, easy to dispatch actions)
+		With the toolkit we configure the redux-slices and the index-store
+
+19.1_redux_sideEffects_asyncJS_InsideComponent (Shopping Cart)

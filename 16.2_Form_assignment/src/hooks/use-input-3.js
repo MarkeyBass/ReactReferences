@@ -25,7 +25,7 @@ const inputStateReducer = (state, action) => {
   return initialInputState;
 };
 
-const useInput2 = (validationHandler) => {
+const useInput3 = (validationHandler) => {
   // const [inputValue, setInputValue] = useState("");
   // const [isInputTouched, setIsInputTouched] = useState(false);
 
@@ -65,4 +65,4 @@ const useInput2 = (validationHandler) => {
   };
 };
 
-export default useInput2;
+export default useInput3;
